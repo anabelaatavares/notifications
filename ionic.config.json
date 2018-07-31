@@ -1,0 +1,7 @@
+{
+  "name": "notifications",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
