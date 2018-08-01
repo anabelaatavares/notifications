@@ -4,9 +4,10 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { Dialogs } from '@ionic-native/dialogs';
+import { Vibration } from '@ionic-native/vibration';
 import { BackgroundMode } from '@ionic-native/background-mode';
 import { LocalNotifications } from '@ionic-native/local-notifications';
-import { Vibration } from '@ionic-native/vibration';
+
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';

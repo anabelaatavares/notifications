@@ -52,14 +52,17 @@ export class HomePage {
         ]
       };
 
+      //this.dialogs.alert('Medicamento: ' + this.dados[i].Medicamento__r.Name,this.dados[i].Contact__r.Name + ' tome a Medicação');
+
 
       this.localNotifications.requestPermission().then((permission) => {
 
         this.localNotifications.schedule(notifa);
 
         this.repeticaoAgua = setInterval(function () {
+         
           this.dialogs.beep(1);
-          this.vibration.vibrate(1000);
+          this.vibration.vibrate(500);
         }.bind(this), (60000));
 
       });

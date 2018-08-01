@@ -98,13 +98,13 @@
     <allow-navigation href="http://192.168.0.12:8111" />
     <allow-navigation href="http://192.168.0.12:8112" />
     <allow-navigation href="http://192.168.0.12:8113" />
-    <plugin name="cordova-plugin-vibration" spec="^3.1.0" />
     <allow-navigation href="http://192.168.0.12:8114" />
     <allow-navigation href="http://192.168.0.12:8115" />
     <plugin name="cordova-plugin-background-mode" spec="^0.7.2" />
     <allow-navigation href="http://192.168.0.12:8116" />
     <allow-navigation href="http://192.168.0.12:8117" />
     <allow-navigation href="http://192.168.0.12:8118" />
-    <engine name="android" spec="^7.1.1" />
     <allow-navigation href="http://192.168.0.12:8119" />
+    <engine name="android" spec="^7.1.1" />
+    <plugin name="cordova-plugin-vibration" spec="^3.1.0" />
 </widget>
